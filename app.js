@@ -39,7 +39,6 @@ function agregarAlCarrito(nombre, precio) {
   updateBadge();
   updateTotal();
 
-  // ❌ eliminar item
   const btnEliminar = li.querySelector('.btn-eliminar');
   btnEliminar.addEventListener('click', () => {
     eliminarItem(li, precio);
